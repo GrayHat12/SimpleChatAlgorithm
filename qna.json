@@ -1,4 +1,5 @@
 {
-    "questions" : [["q1.0","q1.1","q1.2"],["q2.0","q2.1"],["q3"]],
-    "answers" :[["a1.0","a1.1"],["a2.0","a2.1","a2.2","a2.3"],["a3"]]
+    "questions" : [["Hello","Hi","Hey"],["What is your name","What should I call you ?"],["How are you ?"]],
+    "answers" :[["Hello","Hi","Heyy"],["GrayBot","I am GrayBot","Call me GrayBot","GrayBot here ."],["I'm Fine ."]],
+    "ignore" : ["is","am","are"]
 }

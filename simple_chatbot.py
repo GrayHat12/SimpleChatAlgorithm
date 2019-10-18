@@ -5,6 +5,7 @@ file = json.load(open("qna.json",'r'))
 
 qus=file['questions']
 ans=file['answers']
+ign=file['ignore']
 
 inp=input("> ").lower()
 inpt=inp.split(' ')
@@ -15,6 +16,8 @@ for qus in qus:
     for q in qus:
         qu=q.split(' ')
         for que in qu:
+            if que in ign:
+                continue
             if que.lower() in inpt:
                 score[i]+=1
     i+=1
